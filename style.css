@@ -284,6 +284,7 @@ text-align: center;
 margin-left: 11px;
 font-size: 19px;
 outline: none;
+
 }
 }
 
@@ -346,6 +347,7 @@ outline: none;
 box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 font-size: 16px;
 padding: 7px 14px;
+border: 0.5px solid black;
 }
 .edittitle {
 margin: 0px;
@@ -396,7 +398,7 @@ margin-bottom:30px;
             text-decoration:  none;
         }
         .section-container {
-     
+
   text-align: left;
   padding: 20px;
   margin-top: 15px;
@@ -408,7 +410,7 @@ margin-bottom:30px;
 }
 .whatsapp-button {
    margin-top: 10px;
-    background-color: #C58940;
+    background-color: green;
     border-radius: 10px;
 }
 .iti--allow-dropdown input, .iti--allow-dropdown input[type=tel], .iti--allow-dropdown input[type=text], .iti--separate-dial-code input, .iti--separate-dial-code input[type=tel], .iti--separate-dial-code input[type=text] {
@@ -462,3 +464,20 @@ button {
 button a{
   text-decoration: none;
 }
+.hindi-small{
+  font-size: 17px;
+}
+.whatsapp-button {
+       animation: blink-animation 1s steps(5, start) infinite;
+       -webkit-animation: blink-animation 1s steps(5, start) infinite;
+     }
+     @keyframes blink-animation {
+       to {
+         visibility: hidden;
+       }
+     }
+     @-webkit-keyframes blink-animation {
+       to {
+         visibility: hidden;
+       }
+     }
