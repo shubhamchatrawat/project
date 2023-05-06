@@ -3,7 +3,7 @@ body{
 font-family: sans-serif;
 background-image: none;
 
-background-color: #FCFFE7;
+background-color: #FAF8F1;
 padding: 0 10px;
 }
 .upper::before,.section-container::before{
@@ -53,7 +53,7 @@ color: #222 !important;
 }
 
 .card {
-background-color: #FFC6D3;
+background-color: #ffffff;
 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .views-label, b {
@@ -115,9 +115,7 @@ width: 35px;
 font-size: 20px !important;
 border-radius: 10%;
 }
-.catatag{
 
-}
 .catatag div {
 float: left;
 margin: 5px;
@@ -256,7 +254,8 @@ background-color: #eb3834 !important;
 background-color: #eb3834;
 }
 .btnsuccess{
-color: #fff;
+color: #C58940;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 background-color: #222;
 padding: 10px 20px;
 /* border-radius: 4px; */
@@ -268,13 +267,15 @@ text-align: center;
 margin-left: 51px;
 font-size: 19px;
 text-decoration: none;
+outline: none;
 }
 @media only screen and (max-width: 600px) {
 .btnsuccess{
-color: #fff;
+color: #C58940;
 background-color: #222;
 padding: 10px 20px;
 border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 margin-top: -30px;
 position: absolute;
 background-color: #f8b864;
@@ -282,6 +283,7 @@ width: 240px;
 text-align: center;
 margin-left: 11px;
 font-size: 19px;
+outline: none;
 }
 }
 
@@ -339,8 +341,9 @@ margin-left: 110px;
 margin-top: -40px;
 font-size: 18px;
 color: #000;
-background-color: #fff;
-border: 2px solid;
+background-color: #C58940;
+outline: none;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 font-size: 16px;
 padding: 7px 14px;
 }
@@ -393,18 +396,19 @@ margin-bottom:30px;
             text-decoration:  none;
         }
         .section-container {
+     
   text-align: left;
   padding: 20px;
   margin-top: 15px;
-  background-color: #F4F4F4;
+  background-color: white;
   line-height: 22px;
   font-size: 14px;
   overflow: hidden;
   word-break: break-word;
 }
-.whatsapp-input {
-    margin-top: 15px;
-    background-color: #ddd;
+.whatsapp-button {
+   margin-top: 10px;
+    background-color: #C58940;
     border-radius: 10px;
 }
 .iti--allow-dropdown input, .iti--allow-dropdown input[type=tel], .iti--allow-dropdown input[type=text], .iti--separate-dial-code input, .iti--separate-dial-code input[type=tel], .iti--separate-dial-code input[type=text] {
@@ -423,7 +427,7 @@ margin-bottom:30px;
 	border-radius:50px;
 	text-align:center;
   font-size:30px;
-	box-shadow: 2px 2px 3px #999;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   z-index:100;
 }
 
@@ -432,7 +436,7 @@ margin-bottom:30px;
 }
 
 .contact-us {
-  background-color: pink;
+  background-color: rgb(255, 255, 255);
   text-align: center;
 }
 .contact-us p{
